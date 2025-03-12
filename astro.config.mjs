@@ -7,7 +7,7 @@ import { siteConfig } from './src/data/site.config'
 
 // https://astro.build/config
 export default defineConfig({
-	site: siteConfig.site,
+	site: 'https://your-valid-url.com', // Update this to your valid URL
 	markdown: {
 		remarkPlugins: [remarkReadingTime],
 		drafts: true,
